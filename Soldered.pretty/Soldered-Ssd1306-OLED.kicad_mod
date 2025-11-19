@@ -1,0 +1,185 @@
+(footprint "Soldered-Ssd1306-OLED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08520721-680c-4a16-ad32-71b18c0ce8da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Soldered-Ssd1306-OLED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d04c9058-ac89-43d8-a960-6a489fe8d7ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://soldered.com/documentation/ssd1306/overview/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72a04c55-683f-4824-bf6a-71fb3fc880c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70963cfe-e2a2-42c7-92cf-7c98e627b103")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -15 -1.9525)
+		(end 15 -1.9525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "548e6cb0-cb65-4df5-acc0-cd6bc5ac541a")
+	)
+	(fp_line
+		(start -15 28.0475)
+		(end -15 -1.9525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d0787fb1-5f24-4c47-b702-ddf5706a7668")
+	)
+	(fp_line
+		(start 15 -1.9525)
+		(end 15 28.0475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1873030d-a70c-446d-a9c4-268ea3235e09")
+	)
+	(fp_line
+		(start 15 28.0475)
+		(end -15 28.0475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21feca76-7a73-4425-b94c-0e60b5e1041e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "62e7f76d-ecdc-45b3-ae5a-0140fa09f054")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3802cb4b-59a4-444c-a45e-ee41c82bb4de")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c326823-c428-4bac-949e-344d865117ed")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "238619b6-610e-4567-81c6-87d2ef30536d")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc70f574-679e-4682-af43-fe152a346fce")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "cd77e737-f5c7-4b5a-9723-f59429870098")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -15 -1.9525) (xy 15 -1.9525) (xy 15 28.0475) (xy -15 28.0475)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/Soldered-SSD1306-OLED-Display/Display OLED I2C White 0.96 SSD1306 3D.step"
+		(offset
+			(xyz -15 -28.5 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+)
