@@ -14,11 +14,11 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "SSD1306 0.96\" OLED"
+			(at 0 5.842 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -63,14 +63,6 @@
 			)
 		)
 		(symbol "SSD1306-0.96{dblquote}-I2C-OLED-Display_1_1"
-			(text "Soldered Ssd1306"
-				(at 4.318 0 900)
-				(effects
-					(font
-						(size 0.6096 0.6096)
-					)
-				)
-			)
 			(pin power_in line
 				(at -7.62 3.81 0)
 				(length 2.54)
