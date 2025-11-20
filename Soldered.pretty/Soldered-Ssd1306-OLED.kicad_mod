@@ -171,7 +171,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/Soldered-SSD1306-OLED-Display/Display OLED I2C White 0.96 SSD1306 3D.step"
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/Schematics/kicad-libraries/Soldered-SSD1306-OLED-Display/Display OLED I2C White 0.96 SSD1306 3D.step"
 		(offset
 			(xyz -15 -28.5 4.5)
 		)
